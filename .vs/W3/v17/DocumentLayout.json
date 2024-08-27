@@ -1,0 +1,422 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nguye\\source\\repos\\W3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\data\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\data\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\data\\w3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\data\\w3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\data\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\data\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\repository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\repository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\models\\oderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\models\\oderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\models\\oder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\models\\oder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|c:\\users\\nguye\\source\\repos\\w3\\w3\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E761F1DD-7ECF-48BE-946F-C0C79F3E9DC0}|W3\\W3.csproj|solutionrelative:w3\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "W3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "W3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T16:22:32.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "W3\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "W3\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADQAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T16:10:57.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "W3\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "W3\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T16:05:50.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "W3\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "W3\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T16:05:28.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "W3\\Views\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Books\\Delete.cshtml",
+              "RelativeToolTip": "W3\\Views\\Books\\Delete.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T15:55:05.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "W3\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "W3\\Views\\Books\\Create.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T15:52:55.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\appsettings.json",
+              "RelativeDocumentMoniker": "W3\\appsettings.json",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\appsettings.json",
+              "RelativeToolTip": "W3\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-26T15:52:02.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Data\\BookRepository.cs",
+              "RelativeDocumentMoniker": "W3\\Data\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Data\\BookRepository.cs",
+              "RelativeToolTip": "W3\\Data\\BookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:49:14.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "W3\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "W3\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:39:32.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "W3\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "W3\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:39:11.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "W3\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "W3\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwCEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:37:03.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "W3\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "W3\\Views\\Books\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T15:36:12.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Data\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "W3\\Data\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Data\\OrderRepository.cs",
+              "RelativeToolTip": "W3\\Data\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:22:19.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Data\\UserRepository.cs",
+              "RelativeDocumentMoniker": "W3\\Data\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Data\\UserRepository.cs",
+              "RelativeToolTip": "W3\\Data\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:21:58.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Repository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "W3\\Repository\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Repository\\IOrderRepository.cs",
+              "RelativeToolTip": "W3\\Repository\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:18:13.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Program.cs",
+              "RelativeDocumentMoniker": "W3\\Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Program.cs",
+              "RelativeToolTip": "W3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T16:56:21.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "W3\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "W3\\Repository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:16:47.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Repository\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "W3\\Repository\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Repository\\IBookRepository.cs",
+              "RelativeToolTip": "W3\\Repository\\IBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:16:27.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OderItem.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Models\\OderItem.cs",
+              "RelativeDocumentMoniker": "W3\\Models\\OderItem.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Models\\OderItem.cs",
+              "RelativeToolTip": "W3\\Models\\OderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:10:44.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Models\\User.cs",
+              "RelativeDocumentMoniker": "W3\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Models\\User.cs",
+              "RelativeToolTip": "W3\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:09:33.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "W3Context.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Data\\W3Context.cs",
+              "RelativeDocumentMoniker": "W3\\Data\\W3Context.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Data\\W3Context.cs",
+              "RelativeToolTip": "W3\\Data\\W3Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T14:26:22.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "W3\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Models\\Book.cs",
+              "RelativeToolTip": "W3\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T04:38:00.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Oder.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Models\\Oder.cs",
+              "RelativeDocumentMoniker": "W3\\Models\\Oder.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Models\\Oder.cs",
+              "RelativeToolTip": "W3\\Models\\Oder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:10:16.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "W3\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "W3\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T14:26:05.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "W3\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\Models\\CartItem.cs",
+              "RelativeToolTip": "W3\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T04:42:42.095Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
