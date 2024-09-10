@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WIKUUYaXxEBa1xiDDdHO5m5iEPJfTmUM0kD0zczhW7g=",
+  "Hash": "AHreK6rxqnf8F8/JZPTXulZHNXpCFkLCtDIpRQVpoKU=",
   "Source": "W3",
   "BasePath": "_content/W3",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\wwwroot\\images\\28d371a7-390c-4a5a-a858-7e25ed31d7ee_kaisen.jpg",
+      "SourceId": "W3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\wwwroot\\",
+      "BasePath": "_content/W3",
+      "RelativePath": "images/28d371a7-390c-4a5a-a858-7e25ed31d7ee_kaisen.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\28d371a7-390c-4a5a-a858-7e25ed31d7ee_kaisen.jpg"
     },
     {
       "Identity": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\wwwroot\\js\\site.js",

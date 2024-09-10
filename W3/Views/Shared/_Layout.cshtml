@@ -1,80 +1,91 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Online Bookstore</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/W3.styles.css" asp-append-version="true" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - YourSiteName</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light border-bottom mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Online Bookstore</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Books" asp-action="Index">Books</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Cart" asp-action="Index">Cart</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Orders" asp-action="Index">Orders</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Search" asp-action="Index">Search</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ms-auto">
-                        @if (User.Identity.IsAuthenticated)
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
-                            </li>
-                            @if (User.IsInRole("Admin"))
-                            {
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-area="" asp-controller="Admin" asp-action="Index">Admin</a>
-                                </li>
-                            }
-                        }
-                        else
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
-                            </li>
-                        }
-                    </ul>
+        <div class="container">
+            <div class="row align-items-center py-2">
+                <div class="col-md-3">
+                    <a href="@Url.Action("Index", "Home")">
+                        <img src="~/images/logo.png" alt="Logo" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm..." aria-label="Search">
+                        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-3 text-right">
+                    <a href="@Url.Action("Login", "Account")" class="btn btn-outline-secondary">Đăng nhập</a>
+                    <a href="@Url.Action("Register", "Account")" class="btn btn-outline-secondary">Đăng ký</a>
+                    <a href="@Url.Action("Wishlist", "User")" class="btn btn-outline-secondary">
+                        <i class="fas fa-heart"></i>
+                        <span class="badge badge-danger">0</span>
+                    </a>
+                    <a href="@Url.Action("Cart", "ShoppingCart")" class="btn btn-outline-secondary">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="badge badge-danger">0</span>
+                    </a>
                 </div>
             </div>
-        </nav>
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle btn btn-danger text-white" href="#" id="categoryMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-bars"></i> DANH MỤC SẢN PHẨM
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="categoryMenu">
+                                        <a class="dropdown-item text-danger font-weight-bold" href="#">Tất cả sản phẩm</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-book"></i> LỊCH SỬ, TRUYỀN THỐNG</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-book"></i> VĂN HỌC VIỆT NAM</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-book"></i> VĂN HỌC NƯỚC NGOÀI</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-book"></i> KIẾN THỨC, KHOA HỌC</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-book"></i> TRUYỆN TRANH</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-book"></i> MANGA - COMIC</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-book"></i> WINGS BOOKS</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-book"></i> GIẢI MÃ BẢN THÂN</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-book"></i> DÀNH CHO CHA MẸ</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-book"></i> ĐỘ TUỔI</a>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-    <footer class="border-top footer text-muted">
+
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
         <div class="container">
-            &copy; 2024 - Online Bookstore - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <span class="text-muted">&copy; 2024 - YourSiteName</span>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

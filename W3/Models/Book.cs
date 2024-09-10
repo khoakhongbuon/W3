@@ -14,6 +14,7 @@ namespace W3.Models
         public DateTime DatePublished { get; set; } 
         public decimal Price { get; set; }
         public string Author { get; set; }
-        public string ImageUrl { get; set; }
+        public string? ImagePath { get; set; }
+        
     }
 }

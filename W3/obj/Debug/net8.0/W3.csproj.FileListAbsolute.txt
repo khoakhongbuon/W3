@@ -256,3 +256,4 @@ C:\Users\nguye\source\repos\W3\W3\obj\Debug\net8.0\refint\W3.dll
 C:\Users\nguye\source\repos\W3\W3\obj\Debug\net8.0\W3.pdb
 C:\Users\nguye\source\repos\W3\W3\obj\Debug\net8.0\W3.genruntimeconfig.cache
 C:\Users\nguye\source\repos\W3\W3\obj\Debug\net8.0\ref\W3.dll
+C:\Users\nguye\source\repos\W3\W3\obj\Debug\net8.0\W3.sourcelink.json

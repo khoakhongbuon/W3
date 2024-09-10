@@ -10,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Title" class="control-label"></label>
@@ -34,7 +34,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="DatePublished" class="control-label"></label>
-                <input asp-for="DatePublished" class="form-control" type="date" /> <!-- Adjusted type to date -->
+                <input asp-for="DatePublished" class="form-control" type="date" />
                 <span asp-validation-for="DatePublished" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -48,13 +48,13 @@
                 <span asp-validation-for="Author" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ImageUrl" class="control-label"></label>
-                <input asp-for="ImageUrl" class="form-control" />
-                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                <label class="control-label">Upload Image</label>
+                <input class="form-control" type="file" name="ImageFile" />
+                <span class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
+
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-action="Index">Back to List</a>
         </form>
     </div>
 </div>

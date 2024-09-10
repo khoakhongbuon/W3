@@ -3,26 +3,32 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using W3.Data;
 using W3.Models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
 
 namespace W3.Controllers
 {
     public class BooksController : Controller
     {
         private readonly W3Context _context;
+        private readonly IWebHostEnvironment _hostingEnvironment;
 
-        public BooksController(W3Context context)
+        public BooksController(W3Context context, IWebHostEnvironment hostingEnvironment)
         {
             _context = context;
+            _hostingEnvironment = hostingEnvironment;
         }
 
         // GET: Books
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Books.ToListAsync());
+            // Fetch books with their discount prices and status
+            var books = await _context.Books.ToListAsync();
+            return View(books);
         }
 
         // GET: Books/Details/5
@@ -50,14 +56,32 @@ namespace W3.Controllers
         }
 
         // POST: Books/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Description,Language,ISBN,DatePublished,Price,Author,ImageUrl")] Book book)
+        public async Task<IActionResult> Create(Book book, IFormFile imageFile)
         {
             if (ModelState.IsValid)
             {
+                if (imageFile != null && imageFile.Length > 0)
+                {
+                    // Ensure the uploads directory exists
+                    var uploadsFolder = Path.Combine(_hostingEnvironment.WebRootPath, "images");
+                    Directory.CreateDirectory(uploadsFolder);
+
+                    // Get unique file name
+                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(imageFile.FileName);
+                    var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    // Save the file to the specified path
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await imageFile.CopyToAsync(stream);
+                    }
+
+                    // Set the ImagePath property in the book model
+                    book.ImagePath = $"/images/{uniqueFileName}";
+                }
+
                 _context.Add(book);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -82,11 +106,9 @@ namespace W3.Controllers
         }
 
         // POST: Books/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,Language,ISBN,DatePublished,Price,Author,ImageUrl")] Book book)
+        public async Task<IActionResult> Edit(int id, Book book, IFormFile imageFile)
         {
             if (id != book.Id)
             {
@@ -97,6 +119,26 @@ namespace W3.Controllers
             {
                 try
                 {
+                    if (imageFile != null && imageFile.Length > 0)
+                    {
+                        // Ensure the uploads directory exists
+                        var uploadsFolder = Path.Combine(_hostingEnvironment.WebRootPath, "images");
+                        Directory.CreateDirectory(uploadsFolder);
+
+                        // Get unique file name
+                        var uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(imageFile.FileName);
+                        var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                        // Save the file to the specified path
+                        using (var stream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await imageFile.CopyToAsync(stream);
+                        }
+
+                        // Set the ImagePath property in the book model
+                        book.ImagePath = $"/images/{uniqueFileName}";
+                    }
+
                     _context.Update(book);
                     await _context.SaveChangesAsync();
                 }
@@ -143,9 +185,9 @@ namespace W3.Controllers
             if (book != null)
             {
                 _context.Books.Remove(book);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

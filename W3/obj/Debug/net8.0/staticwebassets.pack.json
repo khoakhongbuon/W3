@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\wwwroot\\images\\28d371a7-390c-4a5a-a858-7e25ed31d7ee_kaisen.jpg",
+      "PackagePath": "staticwebassets\\images\\28d371a7-390c-4a5a-a858-7e25ed31d7ee_kaisen.jpg"
+    },
+    {
       "Id": "C:\\Users\\nguye\\source\\repos\\W3\\W3\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
